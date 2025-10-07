@@ -1,0 +1,5 @@
+| Tipus d’Array              | Descripció                                                             | Sintaxi                                     | Exemple                                                             |
+| -------------------------- | ---------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------- |
+| **Array indexat**          | Cada element té un índex numèric automàtic (0, 1, 2...)                | `$array = ["Anna", "Joan", "Pau"];`         | `$alumnes = ["Anna", "Joan", "Pau"]; echo $alumnes[1]; // Joan`     |
+| **Array associatiu**       | Cada element té una clau personalitzada (string → valor)               | `$array = ["nom" => "Anna", "edat" => 20];` | `$usuari = ["nom" => "Anna", "edat" => 20]; echo $usuari["nom"];`   |
+| **Array multidimensional** | Un array dins d’un altre array. Es poden representar taules o matrius. | `$array = [[...], [...]];`                  | `$classe = [["Anna", 20], ["Joan", 22]]; echo $classe[0][1]; // 20` |
